@@ -77,7 +77,7 @@ if __name__ == "__main__":
     run_with_playwright(turn_pages1, start_url1, pages, out_file, min_delay, max_delay, ua)
     # run_with_playwright(turn_pages2, start_url2, pages, out_file, min_delay, max_delay, ua)
 ```
-何时用哪一个？
+#何时用哪一个？
 
 标签浏览（start_url1）：形如 .../browse/tag/<tag>/L/，分页步长通常 60。
 
