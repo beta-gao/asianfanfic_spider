@@ -77,7 +77,7 @@ if __name__ == "__main__":
     run_with_playwright(turn_pages1, start_url1, pages, out_file, min_delay, max_delay, ua)
     # run_with_playwright(turn_pages2, start_url2, pages, out_file, min_delay, max_delay, ua)
 ```
-何时用哪一个？
+# 何时用哪一个？
 
 turn_pages1/start_url1用于标签浏览（start_url1）：形如 .../browse/tag/<tag>/L/，分页步长通常 60。
 
@@ -85,7 +85,7 @@ turn_pages2/start_url2用于advanced search搜索结果（start_url2）：复杂
 
 若网站改版，分页步长可能变化。可手动点击“下一页”观察 URL 的偏移量，然后更新 turn_pages
 
-##输出文件
+## 输出文件
 运行成功后生成一个 Excel（默认 test.xlsx），包含列：
 title, url, chapters, subscribers, views, sub_view_ratio, sub_view_pct
 
@@ -93,7 +93,7 @@ title, url, chapters, subscribers, views, sub_view_ratio, sub_view_pct
 
 已内置“安全除法”，当浏览数为 0 时比值记为 0。
 
-##法律与合规
+## 法律与合规
 抓取前请阅读目标网站 ToS / Robots；
 
 仅用于学习研究，避免高频与大规模抓取；
@@ -102,5 +102,5 @@ title, url, chapters, subscribers, views, sub_view_ratio, sub_view_pct
 
 如网站方要求停止抓取，应立即停止。
 
-##许可证
+## 许可证
 MIT License
