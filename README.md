@@ -30,22 +30,16 @@
 # 1) 克隆或下载仓库后，进入项目目录
 cd your-project-folder
 
-# 2) 可选：创建虚拟环境
-python -m venv .venv          # Windows
-# python3 -m venv .venv       # macOS / Linux
-.venv\Scripts\activate        # Windows
-# source .venv/bin/activate   # macOS / Linux
-
-# 3) 安装依赖
+# 2) 安装依赖
 pip install --upgrade pip
 pip install -r requirements.txt
 
-# 4) 安装 Chromium 内核（Playwright）
+# 3) 安装 Chromium 内核（Playwright）
 python -m playwright install chromium
 
-# 5) 运行（把文件名替换成你的脚本名）
-python aff_scraper.py         # Windows
-# python3 aff_scraper.py      # macOS / Linux
+# 4) 运行（把文件名替换成你的脚本名）
+python aff_spider.py         # Windows
+# python3 aff_spider.py      # macOS / Linux
 ```
 
 如何配置抓取参数
