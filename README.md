@@ -1,8 +1,6 @@
-# asianfanfic_spider
-
-
-#English Ver
 # Asianfanfics Tag/Search Scraper (Playwright + BeautifulSoup)
+
+[中文readme](中文版)
 
 Scrape **Asianfanfics** tag pages or search result pages in bulk and export to Excel.  
 For each story the script extracts:
